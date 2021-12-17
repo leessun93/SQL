@@ -88,3 +88,5 @@ SELECT first_name,
         NVL2(commission_pct, -1, 0) --원래값을 무시하고 null은 0으로 아닌애는 100으로 전부 바꾼다
 FROM employees;
     
+
+
