@@ -216,7 +216,7 @@ group by department_id;
 
 
 
-select em.first_name,
+select  em.first_name,
         em.department_id,
         ms.department_id,
         ms.salary
